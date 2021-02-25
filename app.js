@@ -37,7 +37,7 @@ app.post("/", function(req, res) {
 
   const options = {
     method: "POST",
-    auth: "shivamG:qcf706b80319239cd218c1947910a5dad-us1"
+    auth: "shivamG:cf706b80319239cd218c1947910a5dad-us1"
   };
 
   const request = https.request(url, options, function(response) {
